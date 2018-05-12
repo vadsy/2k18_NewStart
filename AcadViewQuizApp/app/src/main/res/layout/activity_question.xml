@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Question">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/colorBackground"
+        
+        android:gravity="center"
+        android:text="@string/q"
+        android:textColor="#ffffff"
+        tools:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="@string/op_1"
+        tools:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/op_2"
+        tools:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/op_3"
+        tools:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/op_4"
+        tools:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/submit_button"
+        android:gravity="center"
+        android:text="@string/submit"
+        tools:textSize="25sp" />
+
+</LinearLayout>

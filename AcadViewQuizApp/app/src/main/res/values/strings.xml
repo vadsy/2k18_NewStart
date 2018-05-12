@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AcadView Quiz App</string>
+    <string name="q">All the questions no matter what subject or topic or difficulty level will appear here. Students will henceforth select their options that will be displayed.</string>
+    <string name="op_1">Option 1</string>
+    <string name="op_2">Option 2</string>
+    <string name="op_3">Option 3</string>
+    <string name="op_4">Option 4</string>
+    <string name="submit">SUBMIT</string>
+</resources>
